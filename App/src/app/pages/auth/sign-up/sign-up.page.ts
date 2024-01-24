@@ -46,7 +46,7 @@ export class SignUpPage implements OnInit {
       );
     } else {
       console.error('Form is invalid');
-      // Acciones en caso de formulario inválido
+      // Acciones en caso de formulario inválidossssss
     }
   } 
 }	  
