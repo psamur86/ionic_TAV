@@ -27,9 +27,11 @@
 
 ion-button {
     text-transform: none;
-    
+
 }
 
+
+    
 // safe padding for ios
 .safe-p-bottom{
     padding-bottom: constant(safe-area-inset-bottom); // for ios 13+
@@ -130,3 +132,27 @@ ion-button {
         --height: 680px;
     }
 }
+
+ion-button.submit {
+    --background: #FFD700; /* Amarillo oscuro */
+    --color: black;
+  }
+  
+  ion-button.ion-margin-top {
+    --border-color: #e0ec52;
+  }
+
+ion-list-header {
+    --background: #19422d;
+    --color: #fff;
+    --border-width: 0 0 4px 0;
+    --border-color: #e51111;
+    --border-style: double;
+
+    ion-icon {
+        font-size: 24px;
+        margin-right: 8px;
+    }
+}
+
+   

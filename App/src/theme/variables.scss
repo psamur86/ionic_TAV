@@ -4,76 +4,76 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #2a469a;
-  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary: #3498db;
+  --ion-color-primary-rgb: 52, 152, 219;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #38ff3b;
-  --ion-color-primary-tint: #29cb2c;
+  --ion-color-primary-shade: #2980b9;
+  --ion-color-primary-tint: #1f6aad;
 
   /** secondary **/
-  --ion-color-secondary: #3c31bc;
-  --ion-color-secondary-rgb: 61, 194, 255;
+  --ion-color-secondary: #e74c3c;
+  --ion-color-secondary-rgb: 231, 76, 60;
   --ion-color-secondary-contrast: #ffffff;
   --ion-color-secondary-contrast-rgb: 255, 255, 255;
-  --ion-color-secondary-shade: #36e052;
-  --ion-color-secondary-tint: #4ecf49;
+  --ion-color-secondary-shade: #c0392b;
+  --ion-color-secondary-tint: #d9534f;
 
   /** tertiary **/
-  --ion-color-tertiary: #5260ff;
-  --ion-color-tertiary-rgb: 82, 96, 255;
+  --ion-color-tertiary: #2ecc71;
+  --ion-color-tertiary-rgb: 46, 204, 113;
   --ion-color-tertiary-contrast: #ffffff;
   --ion-color-tertiary-contrast-rgb: 255, 255, 255;
-  --ion-color-tertiary-shade: #4854e0;
-  --ion-color-tertiary-tint: #6370ff;
+  --ion-color-tertiary-shade: #27ae60;
+  --ion-color-tertiary-tint: #32a167;
 
   /** success **/
-  --ion-color-success: #4a39e4;
-  --ion-color-success-rgb: 45, 211, 111;
+  --ion-color-success: #28b463;
+  --ion-color-success-rgb: 40, 180, 99;
   --ion-color-success-contrast: #ffffff;
   --ion-color-success-contrast-rgb: 255, 255, 255;
-  --ion-color-success-shade: #28ba62;
-  --ion-color-success-tint: #42d77d;
+  --ion-color-success-shade: #239d56;
+  --ion-color-success-tint: #2ecc71;
 
   /** warning **/
-  --ion-color-warning: #35d77b;
-  --ion-color-warning-rgb: 255, 196, 9;
+  --ion-color-warning: #f39c12;
+  --ion-color-warning-rgb: 243, 156, 18;
   --ion-color-warning-contrast: #000000;
   --ion-color-warning-contrast-rgb: 0, 0, 0;
-  --ion-color-warning-shade: #e0ac08;
-  --ion-color-warning-tint: #ffca22;
+  --ion-color-warning-shade: #d68910;
+  --ion-color-warning-tint: #f4b350;
 
   /** danger **/
-  --ion-color-danger: #eb445a;
-  --ion-color-danger-rgb: 235, 68, 90;
+  --ion-color-danger: #e74c3c;
+  --ion-color-danger-rgb: 231, 76, 60;
   --ion-color-danger-contrast: #ffffff;
   --ion-color-danger-contrast-rgb: 255, 255, 255;
-  --ion-color-danger-shade: #cf3c4f;
-  --ion-color-danger-tint: #ed576b;
+  --ion-color-danger-shade: #c0392b;
+  --ion-color-danger-tint: #d9534f;
 
   /** dark **/
-  --ion-color-dark: #222428;
-  --ion-color-dark-rgb: 34, 36, 40;
+  --ion-color-dark: #2c3e50;
+  --ion-color-dark-rgb: 44, 62, 80;
   --ion-color-dark-contrast: #ffffff;
   --ion-color-dark-contrast-rgb: 255, 255, 255;
-  --ion-color-dark-shade: #1e2023;
-  --ion-color-dark-tint: #383a3e;
+  --ion-color-dark-shade: #233140;
+  --ion-color-dark-tint: #34495e;
 
   /** medium **/
-  --ion-color-medium: #92949c;
-  --ion-color-medium-rgb: 146, 148, 156;
+  --ion-color-medium: #bdc3c7;
+  --ion-color-medium-rgb: 189, 195, 199;
   --ion-color-medium-contrast: #ffffff;
   --ion-color-medium-contrast-rgb: 255, 255, 255;
-  --ion-color-medium-shade: #808289;
-  --ion-color-medium-tint: #9d9fa6;
+  --ion-color-medium-shade: #aab2b6;
+  --ion-color-medium-tint: #cfd9dc;
 
   /** light **/
-  --ion-color-light: #f4f8f4;
-  --ion-color-light-rgb: 244, 245, 248;
+  --ion-color-light: #ecf0f1;
+  --ion-color-light-rgb: 236, 240, 241;
   --ion-color-light-contrast: #000000;
   --ion-color-light-contrast-rgb: 0, 0, 0;
-  --ion-color-light-shade: #d7d8da;
-  --ion-color-light-tint: #f5f6f9;
+  --ion-color-light-shade: #d0d3d4;
+  --ion-color-light-tint: #f2f3f4;
 
 
 }
@@ -204,7 +204,7 @@
     --ion-background-color: #121212;
     --ion-background-color-rgb: 18,18,18;
 
-    --ion-text-color: #ffffff;
+    --ion-text-color: #131111;
     --ion-text-color-rgb: 255,255,255;
 
     --ion-border-color: #222222;
@@ -245,7 +245,4 @@ html {
    * https://ionicframework.com/docs/layout/dynamic-font-scaling
    */
   --ion-dynamic-font: var(--ion-default-dynamic-font);
-}
-ion-button{
-  background-color: rgb(110, 216, 94);
 }
